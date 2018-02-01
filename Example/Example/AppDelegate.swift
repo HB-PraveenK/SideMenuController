@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         SideMenuController.preferences.animating.statusBarBehaviour = .horizontalPan
         SideMenuController.preferences.animating.transitionAnimator = FadeAnimator.self
         
-        
+        print("Changes")
         
         return true
     }
